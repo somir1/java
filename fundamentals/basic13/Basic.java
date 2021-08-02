@@ -10,6 +10,7 @@ public class Basic{
         System.out.println(sum(2));
         int[] num = {5,6,8,7,9,1,2000};
         ittArray(num);
+        getOdd(255);
     }
 
     public static void printNum(){
@@ -52,7 +53,7 @@ public class Basic{
 
     public static ArrayList<Integer> getOdd(int someNum) {
         ArrayList<Integer> result = new ArrayList<Integer>();
-        for (int i = 0; i <= 255; i++){
+        for (int i = 0; i <= someNum; i++){
             if (i % 2 != 0){
                 result.add(i);
             }
