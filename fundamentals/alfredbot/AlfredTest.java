@@ -11,6 +11,6 @@ public class AlfredTest{
         
         System.out.println(bot.dateAnnouncment());
 
-        System.out.println(bot.answeringbeforeAlexis("Alexis"));
+        System.out.println(bot.answeringbeforeAlexis("Google"));
     }
 }
