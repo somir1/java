@@ -7,12 +7,12 @@ public class MammalTest {
 		Gorilla ape = new Gorilla();
 		
 		ape.throwSomething();
-		ape.displayEnergy();
+		ape.throwSomething();
+		ape.throwSomething();
 		ape.eatBanana();
-		ape.displayEnergy();
+		ape.eatBanana();
 		ape.climb();
 		ape.displayEnergy();
-		
 
 	}
 
