@@ -6,7 +6,8 @@ public class BankTest {
 		// TODO Auto-generated method stub
 		BankAccount Samir = new BankAccount();
 		BankAccount Leon = new BankAccount();
-		
+		Samir.printCheckingMoney();
+		Samir.showmeMoney();
 		Samir.depositCheck(50);
 		Samir.depositCheck(50);
 		Samir.depositSave(30);
@@ -22,6 +23,7 @@ public class BankTest {
 		Leon.showmeMoney();
 		
 		System.out.println(BankAccount.allAccounts());
+		
 		
 	}
 

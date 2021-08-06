@@ -12,6 +12,7 @@ public class BankAccount {
 	//atatic varible for number of accounts
 	public BankAccount() {
 		accounts += 1;
+		//this.checkingBal=0;
 	}
 
 	//methods am i right 
@@ -36,7 +37,7 @@ public class BankAccount {
 		else {
 		this.checkingBal -= money;
 		BankAccount.Total -= money;
-		System.out.println("Checkings: $" + this.checkingBal);
+		System.out.println("Checkings $" + this.checkingBal);
 		}
 	}
 	
@@ -47,7 +48,7 @@ public class BankAccount {
 		else {
 		this.savingsBal -= money;
 		BankAccount.Total -= money;
-		System.out.println("Savings: $" + this.savingsBal);
+		System.out.println("Savings $" + this.savingsBal);
 		}
 	}
 	
@@ -58,6 +59,9 @@ public class BankAccount {
 	public void showmeMoney() {
 		System.out.println("You grand total is $" + (this.checkingBal += this.savingsBal));
 
+	}
+	public void printCheckingMoney() {
+		System.out.println(this.checkingBal);
 	}
 	
 	
