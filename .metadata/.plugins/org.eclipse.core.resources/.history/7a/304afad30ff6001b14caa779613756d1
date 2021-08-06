@@ -1,0 +1,53 @@
+package com.hossain.bankaccount;
+
+public class BankAccount {
+	
+	//member variables
+	private double checkingBal;
+	private double savingsBal;
+	private static int accounts;
+	private static double Total;
+	
+	
+	//atatic varible for number of accounts
+	public BankAccount() {
+		accounts += 1;
+	}
+
+	//getters and setters
+	public double getCheckingBal() {
+		return checkingBal;
+	}
+
+
+	public void setCheckingBal(double checkingBal) {
+		this.checkingBal = checkingBal;
+	}
+
+
+	public double getSavingsBal() {
+		return savingsBal;
+	}
+
+
+	public void setSavingsBal(double savingsBal) {
+		this.savingsBal = savingsBal;
+	}
+
+
+	public static int getAccounts() {
+		return accounts;
+	}
+
+	public static double getTotal() {
+		return Total;
+	}
+
+	
+	//methods am i right 
+	public void depositCheck(double money) {
+		this.setcheckingBal(this.getcheckingBal() + money);
+	}
+	
+	
+}

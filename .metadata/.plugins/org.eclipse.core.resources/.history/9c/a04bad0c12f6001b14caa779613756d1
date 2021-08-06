@@ -1,0 +1,16 @@
+package com.hossain.bankaccount;
+
+public class BankTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BankAccount Samir = new BankAccount();
+		
+		Samir.depositCheck(50);
+		Samir.depositCheck(50);
+		Samir.depositSave(30);
+		System.out.println(BankAccount.allAccounts())
+		
+	}
+
+}

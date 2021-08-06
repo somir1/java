@@ -1,0 +1,28 @@
+package com.hossain.bankaccount;
+
+public class BankAccount {
+	
+	//member variables
+	private double checkingBal;
+	private double savingsBal;
+	private static int accounts;
+	private static double Total;
+	
+	
+	//atatic varible for number of accounts
+	public BankAccount() {
+		accounts += 1;
+	}
+
+	//methods am i right 
+	public void depositCheck(double money) {
+		this.checkingBal += money;
+		this.Total;
+	}
+	
+	
+	
+	
+	
+	
+}

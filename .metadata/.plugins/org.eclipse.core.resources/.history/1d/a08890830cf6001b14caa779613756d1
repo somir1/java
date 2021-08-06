@@ -1,0 +1,16 @@
+package com.hossain.bankaccount;
+
+public class BankAccount {
+	
+	//member variables
+	private double checkingBal = 0;
+	private double savingsBal = 0;
+	private static int accounts = 0;
+	
+	
+	//atatic varible for number of accounts
+	public BankAccount() {
+		accounts += 1;
+	}
+	
+}
