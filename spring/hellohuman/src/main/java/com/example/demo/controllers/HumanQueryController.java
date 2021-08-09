@@ -11,9 +11,9 @@ public class HumanQueryController {
 	public String humanHome(@RequestParam(value="q", required = false) String nameQuery) {
 		
 		if(nameQuery == null){
-			return "Whats your name?";
+			return "<h1>Whats your name?</h1>";
 		}else {
-			return "Hello " + nameQuery + " Welcome to SpringBoot";
+			return String.format("<h1>Hello %s</h1> <br> <h2>Welcome to SpringBoot!</h2> <br> <a href='http://localhost:8080'>Go Back</a>", nameQuery);
 		}
 	}
 

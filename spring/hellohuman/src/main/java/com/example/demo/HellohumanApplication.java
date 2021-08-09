@@ -14,7 +14,7 @@ public class HellohumanApplication {
 	}
 	@RequestMapping("/")
 	public String hello() {
-		return "Hello Human\n Welcome to SpringBoot";
+		return "<h1>Hello Human!</h1><br> <h2>Welcome to SpringBoot<h2>";
 	}
 	
 
