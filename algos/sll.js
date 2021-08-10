@@ -50,14 +50,12 @@ class SLL{
         return this
     }
 
+    rev(){
+        
+    }
+
 }
 
 var sll1 = new SLL();
 
 sll1.addToBack(23).addToBack(15).addToBack(41).addToBack(1).display()
-sll1.removeFront().display()
-
-
-var sll2 = new SLL();
-
-sll2.removeFront()
