@@ -72,4 +72,20 @@ public class BookController {
     	return "redirect:/";
     }
     
+    @GetMapping("/book/edit/{id}")
+    public String editBook(@PathVariable("id")Long id, Model model) {
+    	Book b = this.bookService.findBook(id);
+    	model.addAttribute("book",b);
+    	return "edit.jsp";
+    }
+    
+    @PostMapping("/updatebook/{id}")
+    public String upateBook(@PathVariable("id")Long id, @Valid @ModelAttribute("book") Book book, BindingResult result) {
+    	if(result.hasErrors()) {
+    		return "edit.jsp";
+    	}
+    	this.bookService.bookUpdate(book);
+    	return "redirect:/";
+    }
+    
 }

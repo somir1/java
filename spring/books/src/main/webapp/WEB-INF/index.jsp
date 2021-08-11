@@ -18,6 +18,7 @@
         <th scope="col">Description</th>
         <th scope="col">Language</th>
         <th scope="col">Number of Pages</th>
+        <th scope="col">Actions</th>
     </tr>
   </thead>
   <tbody>
@@ -28,6 +29,7 @@
       	<td>${b.description }</td>
       	<td>${b.language}</td>
       	<td>${b.numberOfPages}</td>
+      	<td><p><a href="/book/edit/${b.id}">Edit</a> | <a href="/book/delete/${b.id}">Delete</a></p></td>
     </tr>
     </c:forEach>
   </tbody>
