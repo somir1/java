@@ -24,6 +24,7 @@ public class BooksApi {
     }
     
     //the controller will have requests which will talk to the service
+    //get all books
     @RequestMapping("/api/books")
     public List<Book> index() {
         return this.bookService.allBooks();
