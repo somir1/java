@@ -25,9 +25,7 @@ class DLL{
             newNode.prev = this.tail;
             this.tail = newNode;
         }
-
         return this;
-
     }
 
 
@@ -103,9 +101,18 @@ class DLL{
         return this;
     }
 
+    reverse() {
+        [ this.head, this.tail ] = [ this.tail, this.head ]
+        let runner = this.head
+        while ( runner ) {
+            [ runner.next, runner.prev ] = [ runner.prev, runner.next ]
+            runner = runner.next
+        }
+    return this
+    }
 }
 
-
-
 let dll1 = new DLL();
-dll1.addToBack(5).addToBack(23).addToBack(3).addToBack(15).addToFront(12).removeFromBack().removeFromFront().printValuesForward().printValuesBackward()
+let dll2 = new DLL();
+dll1.addToBack(5).addToBack(23).addToBack(3).addToBack(15).addToFront(12).removeFromBack().removeFromFront().printValuesForward().printValuesBackward().reverse()
+dll2.addToBack(20).addToBack(250).addToFront(12).printValuesForward().removeFromBack()
