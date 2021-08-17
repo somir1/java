@@ -33,3 +33,1167 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-08-13 19:42:10.006 -----------------------------------------------
+eclipse.buildId=4.11.0.202106180608
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/leon/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/leon/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-08-13 19:42:28.025
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.resources 4 567 2021-08-13 19:42:28.075
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2021-08-13 19:42:28.075
+!MESSAGE Could not read metadata for '.org.eclipse.egit.core.cmp'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/.org.eclipse.egit.core.cmp)[567]: java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2480)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2231)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1028)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:511)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:401)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2021-08-13 19:42:28.076
+!MESSAGE The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for '.org.eclipse.egit.core.cmp' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2480)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2231)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:814)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$2.run(BundleContextImpl.java:1)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:554)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:806)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:763)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1028)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:371)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:511)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:572)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:345)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:401)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:476)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:170)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.jface 2 0 2021-08-13 19:42:31.570
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-08-13 19:42:31.570
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41289e88,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e8783b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY Activator 1 0 2021-08-13 19:43:09.820
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-13 19:43:10.982
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-13 19:43:10.986
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.preview.adapter.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-13 19:43:10.986
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.jst.server.tomcat.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-13 19:43:10.986
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.http.core.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2021-08-13 19:43:10.986
+!MESSAGE Project facet wst.jsdt.web has not been defined. It is used in plugin org.eclipse.wst.server.preview.adapter.
+
+!ENTRY Activator 1 0 2021-08-13 19:43:11.404
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:11.742
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:12.153
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:12.725
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:13.000
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:13.060
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:15.540
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:15.993
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:16.529
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:16.711
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:16.820
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:16.943
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:17.004
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:17.055
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:17.086
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:17.255
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:17.379
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:17.741
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:17.957
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:18.875
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:19.145
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:19.250
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:19.485
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:22.694
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.025
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.088
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.103
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.104
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.200
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.201
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.253
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.259
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.307
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.307
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.308
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.801
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.805
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:24.805
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:25.064
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:25.064
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:25.065
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:25.718
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:25.853
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:25.854
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:25.873
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.451
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.573
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.574
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.574
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.595
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.652
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.653
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.654
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.656
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.720
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.720
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.720
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.721
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:26.892
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.587
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.588
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.589
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.589
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.622
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.756
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.757
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.757
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.762
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.776
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.830
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.831
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.831
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.831
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.855
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.864
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.864
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.864
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.865
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.952
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.952
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.952
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.952
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:27.953
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.400
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.405
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.405
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.405
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.406
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.683
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.683
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.683
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.683
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.684
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:28.835
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:30.952
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY org.eclipse.jst.j2ee 4 0 2021-08-13 19:43:31.570
+!MESSAGE Cannot invoke "org.eclipse.wst.common.componentcore.internal.ComponentResource.getSourcePath()" because "resource" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.wst.common.componentcore.internal.ComponentResource.getSourcePath()" because "resource" is null
+	at org.eclipse.jst.j2ee.refactor.listeners.J2EEElementChangedListener.getResourceMappings(J2EEElementChangedListener.java:317)
+	at org.eclipse.jst.j2ee.refactor.listeners.J2EEElementChangedListener.getNonJavaFolderMappings(J2EEElementChangedListener.java:252)
+	at org.eclipse.jst.j2ee.refactor.listeners.J2EEElementChangedListener.access$1(J2EEElementChangedListener.java:242)
+	at org.eclipse.jst.j2ee.refactor.listeners.J2EEElementChangedListener$1.runInWorkspace(J2EEElementChangedListener.java:119)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.623
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.625
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.625
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.625
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.626
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.670
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.670
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.744
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.744
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.744
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.744
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.745
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.850
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.948
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.951
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.952
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:31.992
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.081
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.081
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.081
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.081
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.082
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.134
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.150
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.151
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.151
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.151
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.151
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.152
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.195
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.195
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.196
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.196
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.196
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.196
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.196
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.282
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.284
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.284
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.286
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.286
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.287
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.288
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.426
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.427
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.427
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.427
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.427
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.427
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.428
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.793
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.796
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.796
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.796
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.796
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.796
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:32.796
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.049
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.050
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.050
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.050
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.051
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.051
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.051
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.649
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.649
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.650
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.650
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.650
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.650
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.650
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.972
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.972
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.973
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.973
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.974
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.974
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:33.975
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.145
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.619
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.620
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.620
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.621
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.621
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.621
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.621
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.698
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.699
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.700
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.700
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.700
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.700
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.700
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.703
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.738
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.738
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.738
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.738
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.749
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.787
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.788
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.788
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.799
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.800
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.800
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.800
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:34.801
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.192
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.193
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.230
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.247
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.249
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.262
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.262
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.266
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.288
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.289
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.293
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.299
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.316
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.352
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.353
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.353
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.370
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.370
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.490
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.491
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.491
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.492
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.492
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.492
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.492
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.492
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.574
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.574
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.580
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.587
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.587
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.588
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.594
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:35.603
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:36.303
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:36.304
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:36.304
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:36.304
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:36.304
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:36.307
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:36.333
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:36.345
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:36.347
+!MESSAGE Has main method computation for project 'hellohuman'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:37.234
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:37.238
+!MESSAGE Has main method computation for project 'hellohuman'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:37.247
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:37.250
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:37.250
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:37.251
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:37.251
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:37.251
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:37.253
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.214
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.215
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.215
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.215
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.215
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.215
+!MESSAGE Has main method computation for project 'hellohuman'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.215
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.215
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.217
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.387
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.393
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.459
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.459
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.460
+!MESSAGE Has main method computation for project 'hellohuman'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.460
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.460
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.460
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:38.460
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.721
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.724
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.726
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.727
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.727
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.727
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.743
+!MESSAGE Has main method computation for project 'hellohuman'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.744
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.744
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.901
+!MESSAGE Has main method computation for project 'counter'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.902
+!MESSAGE Has main method computation for project 'language'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.902
+!MESSAGE Has main method computation for project 'dojosninjas'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.902
+!MESSAGE Has main method computation for project 'strings'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.903
+!MESSAGE Has main method computation for project 'dojosurvey'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.909
+!MESSAGE Has main method computation for project 'dateandtime'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.909
+!MESSAGE Has main method computation for project 'books'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.923
+!MESSAGE Has main method computation for project 'hellohuman'
+
+!ENTRY Activator 1 0 2021-08-13 19:43:39.947
+!MESSAGE Has main method computation for project 'routing'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:49.355
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:49.361
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3707db2f[org.springframework.tooling.boot.ls:1.26.0.202106150606(id=552)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:49.363
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:49.394
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.583
+!MESSAGE Boot LS startup time from start to initialized: 7203ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.648
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JLQkdjXJisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.651
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.652
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.652
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.652
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JLQkdjXJ => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.653
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.664
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.666
+!MESSAGE buffering callback sts4.classpath.JLQkdjXJ dojosninjas false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.666
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.668
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.669
+!MESSAGE buffering callback sts4.classpath.JLQkdjXJ books false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.669
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.669
+!MESSAGE classpath=2 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.669
+!MESSAGE buffering callback sts4.classpath.JLQkdjXJ calc false 2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.670
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.671
+!MESSAGE classpath=70 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.671
+!MESSAGE buffering callback sts4.classpath.JLQkdjXJ counter false 70
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.671
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.677
+!MESSAGE classpath=69 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.677
+!MESSAGE buffering callback sts4.classpath.JLQkdjXJ dateandtime false 69
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.677
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.680
+!MESSAGE classpath=70 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.681
+!MESSAGE buffering callback sts4.classpath.JLQkdjXJ dojosurvey false 70
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.681
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.686
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.686
+!MESSAGE buffering callback sts4.classpath.JLQkdjXJ hellohuman false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.686
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.689
+!MESSAGE classpath=99 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.689
+!MESSAGE buffering callback sts4.classpath.JLQkdjXJ language false 99
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.689
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.690
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.691
+!MESSAGE buffering callback sts4.classpath.JLQkdjXJ routing false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.691
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.692
+!MESSAGE classpath=66 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.692
+!MESSAGE buffering callback sts4.classpath.JLQkdjXJ strings false 66
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:56.692
+!MESSAGE executing callback sts4.classpath.JLQkdjXJ 10 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:44:57.230
+!MESSAGE executing callback sts4.classpath.JLQkdjXJ SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:45:12.936
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JLQkdjXJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:45:12.938
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JLQkdjXJ
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:45:12.938
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-13 19:45:12.939
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JLQkdjXJ => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-08-13 19:45:13.486
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

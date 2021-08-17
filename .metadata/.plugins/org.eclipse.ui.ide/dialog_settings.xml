@@ -43,6 +43,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/leon/Documents/GitHub/java/spring"/>
 			<item value="C:\Users\leons\Desktop\Coding Dojo\java\OOP\objectmaster"/>
 			<item value="C:\Users\leons\Desktop\Coding Dojo\java\OOP\zooperkeep"/>
 		</list>
